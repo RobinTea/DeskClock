@@ -1,0 +1,28 @@
+﻿<Window x:Class="DesktopClockOverlay.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Clock Overlay" Height="500" Width="800"
+        WindowStyle="None" 
+        AllowsTransparency="True"
+        Background="Transparent" 
+        Topmost="False"
+        ShowInTaskbar="False" 
+        Loaded="Window_Loaded">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock x:Name="ClockText"
+                   Text="." 
+                   FontSize="48"
+                   Foreground="White"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   TextOptions.TextRenderingMode="ClearType" />
+        <TextBlock x:Name="CustomTextBlock"
+                   Text=""
+                   FontSize="24"
+                   Foreground="White"
+                   FontWeight="Normal"
+                   HorizontalAlignment="Center"
+                   Margin="0,10,0,0"
+                   TextOptions.TextRenderingMode="ClearType" />
+    </StackPanel>
+</Window>
