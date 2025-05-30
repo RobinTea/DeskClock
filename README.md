@@ -3,6 +3,8 @@ I remember that a friend used a sowftware to get a nice looking clock on his des
 <br>
 The problem was that it was not free. So I made it myself, to save some money.
 
+<img src="https://github.com/user-attachments/assets/c42ea41d-dbf4-4fa7-a605-b1720d6923cf" width="200" />
+
 ## Controls
 You can access the Settings via the windows Taskbar (it is minimized) 
 <br>
