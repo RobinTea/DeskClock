@@ -6,7 +6,7 @@ The problem was that it was not free. So I made it myself, to save some money.
 <img src="https://github.com/user-attachments/assets/c42ea41d-dbf4-4fa7-a605-b1720d6923cf" width="200" />
 
 ## Controls
-You can access the Settings via the windows Taskbar (it is minimized) 
+You can access the Settings via the Windows Taskbar (it is minimized) 
 <br>
 ![image](https://github.com/user-attachments/assets/e63f89bf-e8e4-4ff9-a25d-2f648a5b6d13)
 
@@ -17,6 +17,8 @@ You can access the Settings via the windows Taskbar (it is minimized)
 ![image](https://github.com/user-attachments/assets/32f35f9b-5e51-43b4-9f0a-e98e6c69fafc)
 <br>
 ps: if you add letter in the fontsize section it wont change size until ther is a number between 0 and 300
+
+**right click and choose "Beenden" to end the program** (Quit in german)
 
 *more features and fixes in development*
 
