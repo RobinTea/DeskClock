@@ -1,20 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using System.Windows.Forms;
-using Forms = System.Windows.Forms;
 using System.Drawing.Text;
-
 
 namespace DesktopClockOverlay
 {
@@ -36,6 +24,13 @@ namespace DesktopClockOverlay
             PosXSlider.ValueChanged += PositionSlider_ValueChanged;
             PosYSlider.ValueChanged += PositionSlider_ValueChanged;
             CustomTextBox.TextChanged += CustomTextBox_TextChanged;
+            ShowDateCheckBox.Checked += ShowDateCheckBox_Checked;
+            ShowDateCheckBox.Unchecked += ShowDateCheckBox_Checked;
+        }
+
+        private void ShowDateCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            _mainWindow.SetShowDate(ShowDateCheckBox.IsChecked == true);
         }
 
         private void LoadFonts()
@@ -51,10 +46,23 @@ namespace DesktopClockOverlay
 
         private void InitializeValues()
         {
-            FontSizeTextBox.Text = "48";
+            var screens = Screen.AllScreens;
+            var primaryScreen = Screen.PrimaryScreen;
+
+            var screenWidth = SystemParameters.PrimaryScreenWidth;
+            var screenHeight = SystemParameters.PrimaryScreenHeight;
+
+            PosXSlider.Minimum = primaryScreen.Bounds.Left;
+            PosXSlider.Maximum = screenWidth - _mainWindow.Width;
+            PosYSlider.Minimum = primaryScreen.Bounds.Top;
+            PosYSlider.Maximum = screenHeight - _mainWindow.Height;
+
+            FontSizeTextBox.Text = _mainWindow.ClockText.FontSize.ToString();
             PosXSlider.Value = _mainWindow.Left;
             PosYSlider.Value = _mainWindow.Top;
             CustomTextBox.Text = _mainWindow.CustomText ?? "";
+
+            ShowDateCheckBox.IsChecked = _mainWindow.IsDateShown; //public property in MainWindow
         }
 
         private void FontComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
