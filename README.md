@@ -29,6 +29,7 @@ ps: if you add letter in the fontsize section it wont change size until ther is 
 <br>
 <img src="https://github.com/user-attachments/assets/66b9267a-78f9-4b22-810f-c19f67b83d45" width="800" />
 <br>
+<img src="https://github.com/user-attachments/assets/8049e56e-5eae-4f62-ae36-6024add3c95b" width="800" />
 <br>
 Wallpaper sources:<br>
 https://getwallpapers.com/collection/delorean-wallpaper-hd
@@ -37,3 +38,4 @@ https://www.digitalcombatsimulator.com/de/ (in game footage)
 <br>
 https://wallpaperaccess.com/architectural
 <br>
+https://unsplash.com/de/fotos/eine-gruppe-von-kampfjets-fliegt-durch-einen-bewolkten-himmel-YbyBO00J6Kk
