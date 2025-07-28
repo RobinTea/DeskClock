@@ -10,7 +10,7 @@ You can access the Settings via the Windows Taskbar (it is minimized)
 <br>
 ![image](https://github.com/user-attachments/assets/e63f89bf-e8e4-4ff9-a25d-2f648a5b6d13)
 
-**right click the Icon with the exclamation mark and choose "Einstellungen"** (Settings in german)
+**right click the Icon with the exclamation mark and choose "Einstellungen"** ("Settings" in german)
 <br>
 <br>
 
