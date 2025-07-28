@@ -18,7 +18,7 @@ You can access the Settings via the Windows Taskbar (it is minimized)
 <br>
 ps: if you add letter in the fontsize section it wont change size until ther is a number between 0 and 300
 
-**right click and choose "Beenden" to end the program** (Quit in german)
+**right click and choose "Beenden" to end the program** ("Quit" in german)
 
 *more features and fixes in development*
 
