@@ -8,28 +8,35 @@ The problem was that it was not free. So I made it myself, to save some money.
 ## Controls
 You can access the Settings via the Windows Taskbar (it is minimized) 
 <br>
-![image](https://github.com/user-attachments/assets/e63f89bf-e8e4-4ff9-a25d-2f648a5b6d13)
 
-**right click the Icon with the exclamation mark and choose "Einstellungen"** ("Settings" in german)
+<img width="47" src="https://github.com/user-attachments/assets/2611bf65-f2ca-404a-85ad-3ee8805dca8d" />
+
+**click the Icon with the exclamation mark (it should pop up, if not click again)**
 <br>
 <br>
 
-![image](https://github.com/user-attachments/assets/32f35f9b-5e51-43b4-9f0a-e98e6c69fafc)
+<img width="400" src="https://github.com/user-attachments/assets/151429bf-0c41-43a8-9f25-ac24a01f12f1" />
 <br>
-ps: if you add letter in the fontsize section it wont change size until ther is a number between 0 and 300
 
-**right click and choose "Beenden" to end the program** ("Quit" in german)
+**to close the window click the cross at the top right on the settings window**
+<br>
+
+**press the big red button to close DeskClock** (*Windows + alt + c* to minimize)
+<br>
+<br>
+<br>
 
 *more features and fixes in development*
 
 ## Extra
 The first time you click on the exe it will want you to download .Net 6.0 which is needed.<br>
-<img width="400" src="https://github.com/user-attachments/assets/1b9639ba-819e-4865-a5d8-0fad2d771e25" /><br>
 just follow the instructions<br>
-<img width="400" src="https://github.com/user-attachments/assets/12913b6c-0f21-4548-9e15-3d64d13ee75f" />
-<img width="400" src="https://github.com/user-attachments/assets/66efb775-1a75-4c06-affa-6cdb9ed687aa" /><br>
-after downloading the exe should work.<br>
-
+<img width="300" src="https://github.com/user-attachments/assets/1b9639ba-819e-4865-a5d8-0fad2d771e25" /><br>
+<img width="300" src="https://github.com/user-attachments/assets/12913b6c-0f21-4548-9e15-3d64d13ee75f" /><br>
+<img width="300" src="https://github.com/user-attachments/assets/66efb775-1a75-4c06-affa-6cdb9ed687aa" /><br>
+after downloading DeskClock works.
+<br>
+<br>
 
 ## Examples
 
